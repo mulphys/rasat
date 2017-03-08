@@ -1,6 +1,6 @@
 # Risk Analysis System for Aerosol Transport (RASAT)
 
-## [Andrei Smirnov](mailto:andrei.v.smirnov@gmail.com) and Steven Rowan
+## [Andrei Smirnov](mailto:andrei.v.smirnov@gmail.com) 
 
 ## Summary
 
@@ -16,8 +16,6 @@ aerosol spreading and deposition in case of an emergency situation.
 
 ### [Web-simulator of contamination spreading (DEMO)](demo/)
 
-![aerosols](aerosols.png)
-
 The demo compares predictions of aerosol spreading between the real-time simulation and the database retrieval.
 When express assessment is needed a database retrieval of results will always be faster than conducting a physically based simulation.
 In this case the database data should be prepared in advance and span a set of most likely scenarios.
@@ -30,6 +28,4 @@ To run a demo change to [demo](demo/) directory and run
 
 - appletviewer city.html
 
-
-## [Documentation](doc)
 
