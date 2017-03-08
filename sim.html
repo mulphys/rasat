@@ -1,0 +1,47 @@
+<html>
+<title>SimWizSummary</title>
+<body>
+<center>
+<h1>Surrogate Intelligent Models – SIMs</h1>
+<h2>Summary</h2>
+</center>
+<p>
+Over the past several years computer simulations made major advances in terms of scope and complexity. Today they can reach the levels of accuracy, which make it possible to play realistic scenarios of complex mechanical and geo-physical processes. These modeling capabilities become especially important for risk assessment of rare but potentially devastating events, such as natural disasters and acts of terror, when experimental evaluation becomes virtually impossible.
+
+The success of computer simulation techniques is due to the development of efficient algorithms and solution methods for general partial differential equations (PDE), the advancement of modern computational fluid dynamic (CFD) and multi-physics simulation technologies, as well as due to the availability of increasingly capable hardware platforms, such as supercomputer facilities, and Beowulf clusters.
+</p>
+<p>
+However, the reliance on supercomputing facilities, and long processing times required for such high-performance simulations make them impractical as a decision making tool in critical situations.  Indeed, accurate simulations of complex physical processes usually take much longer than the actual physical time of the process. This is especially true for complex fluid-dynamics and general multi-physics processes.  This makes the advanced CFD methods virtually useless in predicting the course of events which are currently in progress. Therefore, they can not be effectively used to assist in real time decision making.
+</p>
+<p>
+If simulators are to be used effectively as decision making tools, they must be capable of processing potential scenarios much faster than their current speed. For mission critical decision making processes simulators must approach real time or near real time speeds. Furthermore, for analysis of uncertainties associated with input parameters or for real time optimization where comparison of multiple scenarios becomes essential, simulators must be capable of providing results in fraction of a second instead of minutes or hours. The set of techniques that when combined is capable of such performance is based on hybrid intelligent systems that include, but are not limited to, artificial neural networks, genetic algorithms and fuzzy logic. Using intelligent systems it is now possible to build Surrogate Intelligent Models (SIMs) that can mimic functionalities of complex simulators in real time. 
+</p>
+<p>
+Our unique experience of building effective Surrogate Intelligent Models in oil and gas industry (Surrogate Reservoir Models (SRMs) & Surrogate Hydraulic fracture Models (SHMs) are a subset of SIMs) provides a unique opportunity for applying this technology to other disciplines. SIMs proved to be very fast and efficient and have been shown effective in analyses of uncertainty as well as real time design and optimization. 
+</p>
+<p>
+With this study we propose to develop and implement the method of producing SIMs capable of making quick estimates of the consequences of potentially dangerous or critical events.  These events can be related to complex fluid dynamics processes resulting from explosions, release of airborne contaminants, atmospheric plumes, etc.  The stage for the simulations will be typical earth terrains and complex urban environments, with the length-scales ranging from a few meters to hundreds of kilometers, and time-scales from minutes to days.
+</p>
+<p>
+The method will rely on accurate CFD solutions as a learning set for the intelligent system. Using these solutions the surrogate models will acquire the important features of the real world phenomena. After learning the right behavior from the basic solution set, the SIMs will be subjected to validation tests on different sets of solutions, so as to produce the maps of accuracy estimates with probabilistic confidence limits. These accuracy estimates will define the range of applicability for each particular SIM, and will constitute important factors in applying the SIM to the situations, which may deviate from the representative solution set.  Such simulators will make predictions in a matter of seconds or fractions of seconds, thus providing a tool for immediate analysis of critical situations and assisting in the decision making process.
+</p>
+<p>
+While CFD techniques are rather general and can be applied to a variety of different scenarios, this study will aim at developing a method of generating SIMs specific for each concrete case. For example, given an urban landscape of a city, such as downtown Manhattan, a SIM will be produced representing possible scenarios of contaminated plumes spreading within that particular landscape under different weather conditions, wind patterns, etc. This way it will be possible to keep the size of the SIM within reasonable limits, which will enable its implementation on readily available computer platforms, such as PC workstations, laptops and other portable devices. It is often the case that the decisions in critical situations are made in the locations where the contact to mainframe computers is limited or impossible. Thus the compactness and portability of such decision making tool is of a vital importance.
+</p>
+<p>
+Another way of optimizing and downsizing the SIM will be to set the criteria for selecting the representative solution set, which will form the basis for SIMs learning, and at the same time restricting the parameters of the problem to what will be considered as important factors for the decision making process. After such factors are identified extensive parametric studies will be conducted by means of CFD simulations to produce a representative set of solutions. One subset of these solutions will be used for learning, while the other - for validation and error estimate analysis. 
+</p>
+<p>
+The choice of the appropriate CFD solver is crucial in establishing the
+accurate SIM, but not essential from the perspective of the proposed
+methodology. Likewise, the hardware implementation and the scale of the
+parametric studies may be important in extending the predictive capabilities
+of the model. The usage of advanced CFD solvers implemented on Beowulf
+clusters, combined with many hours of simulations will be required to
+produce SIM of a complex object, such as an urban city environment. After
+such a model has been calibrated and validated it can serve as an important
+tool of express analysis of complex emergency situations and may become an
+invaluable help in related decision making.
+</p>
+</body>
+</html>

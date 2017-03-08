@@ -1,0 +1,78 @@
+<html>
+  <head>
+      <title>City</title>
+  </head>
+  <body> 
+<center>
+      <h1>Contamination in the City</h1>
+<p>
+A <a
+href="http://wwws.sun.com/software/java/">Java plug-in</a> is needed to see
+use the 3D viewer.
+</p>
+</center>
+
+<p>
+Picture below is a 3D representation of a simplified city landscape.  A red
+ball represents the center of contaminats release.  The scroll bars allow to
+position the center of contaminant release and change wind direction.  Mouse
+buttons and grag allow to rotate/translate the scene.
+</p>
+
+<center>
+	<applet code="DomainView" archive="city.jar" width="480" height="480">
+	<param name="model" value="pittsburgh.config">
+	<param name="xrot" value="260">
+	<param name="yrot" value="25">
+	<param name="zrot" value="05">
+	<param name="ninj" value="10000">
+	<param name="xinj" value="0.4">
+	<param name="yinj" value="0.82">
+	<param name="zinj" value="0.80">
+	<param name="vdir" value="269.0">
+	alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
+	Your browser is completely ignoring the &lt;APPLET&gt; tag!
+	</applet>
+<br>
+<div>Mouse controlls: Left button - rotate, Middle - shift, Right - zoom</div>
+</center>
+<h4>Description of the Applet</h4>
+
+<p>
+The purpose of the simulation is to show the possibility of drastically
+reducing the time of predicting contamination levels by using pre-processed
+results of prior simulations.
+</p>
+
+<p>
+After selecting an object from "SELECT OBJECT" list and pressing the "Fire"
+button, the simulation will start. The count of particle hits on the object
+will gradually accumulate in the "Current" field label. However, the
+"Predicted" field label will immediately show the corresponding hit count. A
+much faster response can be achieved because the predicted hit counts are
+retrieved from a database accumulated during preliminary simulations done for
+a limited area within the landscape. This area is marked by red
+rectangular. If the contamination is released from that area the results can
+be retrieved from the database without delay. In the absence of the database
+data a much longer time is required to obtain the results, since the full 3D
+simulation has to be run.
+</p>
+
+<hr/>
+<div align="center">&copy; 2004 <a href="http://mulphys.com">mulphys.com</a></div>
+
+</body>
+</html>	  
+
+<!-- Shooting from the hill: ->
+	param name="xinj" value="0.95">
+	param name="yinj" value="0.9">
+	param name="zinj" value="0.55">
+	param name="vdir" value="225.0">
+<- Shooting from the park: ->
+	param name="xinj" value="0.5">
+	param name="yinj" value="0.8">
+	param name="zinj" value="0.2">
+	param name="vdir" value="250.0">
+-->
+

@@ -1,0 +1,90 @@
+<html>
+  <head>
+      <title>City</title>
+  </head>
+  <body> 
+<center>
+      <h1>Contamination in the City</h1>
+<p>
+A <a
+href="http://wwws.sun.com/software/java/">Java plug-in</a> is needed to see
+use the 3D viewer.
+</p>
+</center>
+
+<p>
+Picture below is a 3D representation of a simplified city landscape.  A red
+ball represents the center of contaminats release.  The scroll bars allow to
+position the center of contaminant release and change wind direction.  Mouse
+buttons and grag allow to rotate/translate the scene.
+</p>
+
+<center>
+	<applet code="DomainView" archive="city.jar" width="480" height="480">
+	<param name="model" value="pittsburgh.config">
+	<param name="xrot" value="260">
+	<param name="yrot" value="25">
+	<param name="zrot" value="05">
+	<param name="ninj" value="10000">
+	<param name="xinj" value="0.4">
+	<param name="yinj" value="0.82">
+	<param name="zinj" value="0.80">
+	<param name="vdir" value="269.0">
+	alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
+	Your browser is completely ignoring the &lt;APPLET&gt; tag!
+	</applet>
+<br>
+<div>Mouse controlls: Left button - rotate, Middle - shift, Right - zoom</div>
+</center>
+<h4>Description of the Applet</h4>
+
+<p>
+The purpose of the simulation is to show the possibility of drastically
+reducing the time of predicting contamination levels by using pre-processed
+results of prior simulations.
+</p>
+
+<p>
+After selecting an object from "SELECT OBJECT" list and pressing the "Fire"
+button, the simulation will start. The current count of particle hits on the
+object will show in the "Current" field label. The "Predicted" field label
+will immediately show the corresponding hit count obtained in prior
+simulations. A much faster response can be achieved because the predicted hit
+counts are retrieved from a database and not computed in real time. The
+accuracy of the results is determined by the number of particles used in
+simulations. The results retrieved from the database have higher accuracy
+because they were produced with the greater number of particles, which took
+significantly longer time than applet simulation can afford. 
+</p>
+<p>
+Since the whole database of hit counts is too large to be transfered over the
+network at once, the data are split into chunks, corresponding to small
+areas. The red frame shows the area corresponding to the currently loaded hit
+count data.  Repeated release of aerosols from that area does not require
+repeated data transfers.
+</p>
+<p>
+The approach enables to significantly reduce the time needed to obtain
+results on aerosol fallout, by replacing a full 3D simulation with database
+retrieval. This is especially important for express risk assessment in
+emergency situations.
+</p>
+
+<hr/>
+<div align="center">&copy; 2004 <a href="http://mulphys.com">mulphys.com</a></div>
+
+</body>
+</html>	  
+
+<!-- Shooting from the hill: ->
+	param name="xinj" value="0.95">
+	param name="yinj" value="0.9">
+	param name="zinj" value="0.55">
+	param name="vdir" value="225.0">
+<- Shooting from the park: ->
+	param name="xinj" value="0.5">
+	param name="yinj" value="0.8">
+	param name="zinj" value="0.2">
+	param name="vdir" value="250.0">
+-->
+

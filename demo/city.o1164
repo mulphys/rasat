@@ -1,0 +1,688 @@
+running from node13, PGfile_name is: 
+local 0 /home/smirnov/prj/sim/gun/run/gun
+node11 1 /home/smirnov/prj/sim/gun/run/gun
+node10 1 /home/smirnov/prj/sim/gun/run/gun
+node9 1 /home/smirnov/prj/sim/gun/run/gun
+node8 1 /home/smirnov/prj/sim/gun/run/gun
+node7 1 /home/smirnov/prj/sim/gun/run/gun
+node6 1 /home/smirnov/prj/sim/gun/run/gun
+node5 1 /home/smirnov/prj/sim/gun/run/gun
+node4 1 /home/smirnov/prj/sim/gun/run/gun
+node3 1 /home/smirnov/prj/sim/gun/run/gun
+node2 1 /home/smirnov/prj/sim/gun/run/gun
+node1 1 /home/smirnov/prj/sim/gun/run/gun
+Number of processors: 12
+Number of processors: 12
+My Processor number: 10
+Number of processors: 12
+My Processor number: 5
+Number of processors: 12
+My Processor number: 0
+Start time: 4.25257
+Number of processors: 12
+My Processor number: 7
+Number of processors: 12
+My Processor number: 8
+Number of processors: 12
+My Processor number: 9
+Number of processors: 12
+My Processor number: 2
+Number of processors: 12
+My Processor number: 3
+Number of processors: 12
+My Processor number: 1
+Number of processors: 12
+My Processor number: 6
+Number of processors: 12
+My Processor number: 4
+My Processor number: 11
+Loading domain from Pittsburgh.doma, format: ASCII
+	Dim:	92	92	32
+	X0:	0	0	0
+	DX:	92	92	32
+Proc: 3: Receiving data:
+	Dim:	92	92	92
+Proc: 5: Receiving data:
+	Dim:	92	92	92
+Proc: 7: Receiving data:
+	Dim:	92	92	92
+Proc: 4: Receiving data:
+	Dim:	92	92	92
+Proc: 1: Receiving data:
+	Dim:	92	92	92
+	X0:	0	0	0
+Proc: 6: Receiving data:
+	Dim:	92	92	92
+Proc: 11: Receiving data:
+	Dim:	92	92	92
+Proc: 8: Receiving data:
+	Dim:	92	92	92
+Proc: 9: Receiving data:
+	Dim:	92	92	92
+Proc: 10: Receiving data:
+	Dim:	92	92	92
+Proc: 2: Receiving data:
+	Dim:	92	92	92
+	X0:	0	0	0
+	X0:	0	0	0
+	X0:	0	0	0
+	X0:	0	0	0
+	DX:	92	92	92
+	X0:	0	0	0
+	X0:	0	0	0
+	X0:	0	0	0
+	X0:	0	0	0
+	DX:	92	92	92
+	DX:	92	92	92
+	DX:	92	92	92
+	X0:	0	0	0
+	DX:	92	92	92
+	X0:	0	0	0
+	DX:	92	92	92
+	DX:	92	92	92
+	DX:	92	92	92
+	DX:	92	92	92
+	DX:	92	92	92
+	DX:	92	92	92
+Domain index: 0, 0, 1
+Domain origin: 14, 73, 19
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 14	73	19
+Domain index: 0, 1, 0
+Domain origin: 14, 78, 9
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 14	78	9
+Domain index: 0, 1, 1
+Domain origin: 14, 78, 19
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 14	78	19
+Domain index: 1, 0, 0
+Domain origin: 34, 73, 9
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 34	73	9
+Domain index: 1, 0, 1
+Domain origin: 34, 73, 19
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 34	73	19
+Domain index: 1, 1, 0
+Domain origin: 34, 78, 9
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 34	78	9
+Domain index: 1, 1, 1
+Domain origin: 34, 78, 19
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 34	78	19
+Domain index: 2, 0, 0
+Domain origin: 54, 73, 9
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 54	73	9
+Domain index: 2, 0, 1
+Domain origin: 54, 73, 19
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 54	73	19
+Domain index: 2, 1, 0
+Domain origin: 54, 78, 9
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 54	78	9
+Domain index: 0, 0, 0
+Domain origin: 14, 73, 9
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 14	73	9
+Domain index: 2, 1, 1
+Domain origin: 54, 78, 19
+Number of shots: 100000
+space.Dim: 92	92	32
+domain.Dim: 20	5	10
+domain.Origin: 54	78	19
+Run start=5.62596, Run stop=148070, Run duration=148064
+Writing data to p0o0.dat
+p0o0.dat closed.
+Writing data to p0o1.dat
+p0o1.dat closed.
+Writing data to p0o2.dat
+p0o2.dat closed.
+Writing data to p0o3.dat
+p0o3.dat closed.
+Writing data to p0o4.dat
+p0o4.dat closed.
+Writing data to p0o5.dat
+p0o5.dat closed.
+Writing data to p0o6.dat
+p0o6.dat closed.
+Writing data to p0o7.dat
+p0o7.dat closed.
+Writing data to p0o8.dat
+p0o8.dat closed.
+Writing data to p0o9.dat
+p0o9.dat closed.
+Writing data to p0o10.dat
+p0o10.dat closed.
+Writing data to p0o11.dat
+p0o11.dat closed.
+Writing data to p0o12.dat
+p0o12.dat closed.
+Writing data to p0o13.dat
+p0o13.dat closed.
+Writing data to p0o14.dat
+p0o14.dat closed.
+Writing data to p0o15.dat
+p0o15.dat closed.
+Writing data to p0o16.dat
+p0o16.dat closed.
+Writing data to p0o17.dat
+p0o17.dat closed.
+Writing data to p0o18.dat
+p0o18.dat closed.
+Writing data to p0o19.dat
+p0o19.dat closed.
+Writing data to p0o20.dat
+p0o20.dat closed.
+Domain index: 0, 0, 1
+Domain origin: 14, 73, 19
+Writing data to p1o0.dat
+p1o0.dat closed.
+Writing data to p1o1.dat
+p1o1.dat closed.
+Writing data to p1o2.dat
+p1o2.dat closed.
+Writing data to p1o3.dat
+p1o3.dat closed.
+Writing data to p1o4.dat
+p1o4.dat closed.
+Writing data to p1o5.dat
+p1o5.dat closed.
+Writing data to p1o6.dat
+p1o6.dat closed.
+Writing data to p1o7.dat
+p1o7.dat closed.
+Writing data to p1o8.dat
+p1o8.dat closed.
+Writing data to p1o9.dat
+p1o9.dat closed.
+Writing data to p1o10.dat
+p1o10.dat closed.
+Writing data to p1o11.dat
+p1o11.dat closed.
+Writing data to p1o12.dat
+p1o12.dat closed.
+Writing data to p1o13.dat
+p1o13.dat closed.
+Writing data to p1o14.dat
+p1o14.dat closed.
+Writing data to p1o15.dat
+p1o15.dat closed.
+Writing data to p1o16.dat
+p1o16.dat closed.
+Writing data to p1o17.dat
+p1o17.dat closed.
+Writing data to p1o18.dat
+p1o18.dat closed.
+Writing data to p1o19.dat
+p1o19.dat closed.
+Writing data to p1o20.dat
+p1o20.dat closed.
+Domain index: 0, 1, 0
+Domain origin: 14, 78, 9
+Writing data to p2o0.dat
+p2o0.dat closed.
+Writing data to p2o1.dat
+p2o1.dat closed.
+Writing data to p2o2.dat
+p2o2.dat closed.
+Writing data to p2o3.dat
+p2o3.dat closed.
+Writing data to p2o4.dat
+p2o4.dat closed.
+Writing data to p2o5.dat
+p2o5.dat closed.
+Writing data to p2o6.dat
+p2o6.dat closed.
+Writing data to p2o7.dat
+p2o7.dat closed.
+Writing data to p2o8.dat
+p2o8.dat closed.
+Writing data to p2o9.dat
+p2o9.dat closed.
+Writing data to p2o10.dat
+p2o10.dat closed.
+Writing data to p2o11.dat
+p2o11.dat closed.
+Writing data to p2o12.dat
+p2o12.dat closed.
+Writing data to p2o13.dat
+p2o13.dat closed.
+Writing data to p2o14.dat
+p2o14.dat closed.
+Writing data to p2o15.dat
+p2o15.dat closed.
+Writing data to p2o16.dat
+p2o16.dat closed.
+Writing data to p2o17.dat
+p2o17.dat closed.
+Writing data to p2o18.dat
+p2o18.dat closed.
+Writing data to p2o19.dat
+p2o19.dat closed.
+Writing data to p2o20.dat
+p2o20.dat closed.
+Domain index: 0, 1, 1
+Domain origin: 14, 78, 19
+Writing data to p3o0.dat
+p3o0.dat closed.
+Writing data to p3o1.dat
+p3o1.dat closed.
+Writing data to p3o2.dat
+p3o2.dat closed.
+Writing data to p3o3.dat
+p3o3.dat closed.
+Writing data to p3o4.dat
+p3o4.dat closed.
+Writing data to p3o5.dat
+p3o5.dat closed.
+Writing data to p3o6.dat
+p3o6.dat closed.
+Writing data to p3o7.dat
+p3o7.dat closed.
+Writing data to p3o8.dat
+p3o8.dat closed.
+Writing data to p3o9.dat
+p3o9.dat closed.
+Writing data to p3o10.dat
+p3o10.dat closed.
+Writing data to p3o11.dat
+p3o11.dat closed.
+Writing data to p3o12.dat
+p3o12.dat closed.
+Writing data to p3o13.dat
+p3o13.dat closed.
+Writing data to p3o14.dat
+p3o14.dat closed.
+Writing data to p3o15.dat
+p3o15.dat closed.
+Writing data to p3o16.dat
+p3o16.dat closed.
+Writing data to p3o17.dat
+p3o17.dat closed.
+Writing data to p3o18.dat
+p3o18.dat closed.
+Writing data to p3o19.dat
+p3o19.dat closed.
+Writing data to p3o20.dat
+p3o20.dat closed.
+Domain index: 1, 0, 0
+Domain origin: 34, 73, 9
+Writing data to p4o0.dat
+p4o0.dat closed.
+Writing data to p4o1.dat
+p4o1.dat closed.
+Writing data to p4o2.dat
+p4o2.dat closed.
+Writing data to p4o3.dat
+p4o3.dat closed.
+Writing data to p4o4.dat
+p4o4.dat closed.
+Writing data to p4o5.dat
+p4o5.dat closed.
+Writing data to p4o6.dat
+p4o6.dat closed.
+Writing data to p4o7.dat
+p4o7.dat closed.
+Writing data to p4o8.dat
+p4o8.dat closed.
+Writing data to p4o9.dat
+p4o9.dat closed.
+Writing data to p4o10.dat
+p4o10.dat closed.
+Writing data to p4o11.dat
+p4o11.dat closed.
+Writing data to p4o12.dat
+p4o12.dat closed.
+Writing data to p4o13.dat
+p4o13.dat closed.
+Writing data to p4o14.dat
+p4o14.dat closed.
+Writing data to p4o15.dat
+p4o15.dat closed.
+Writing data to p4o16.dat
+p4o16.dat closed.
+Writing data to p4o17.dat
+p4o17.dat closed.
+Writing data to p4o18.dat
+p4o18.dat closed.
+Writing data to p4o19.dat
+p4o19.dat closed.
+Writing data to p4o20.dat
+p4o20.dat closed.
+Domain index: 1, 0, 1
+Domain origin: 34, 73, 19
+Writing data to p5o0.dat
+p5o0.dat closed.
+Writing data to p5o1.dat
+p5o1.dat closed.
+Writing data to p5o2.dat
+p5o2.dat closed.
+Writing data to p5o3.dat
+p5o3.dat closed.
+Writing data to p5o4.dat
+p5o4.dat closed.
+Writing data to p5o5.dat
+p5o5.dat closed.
+Writing data to p5o6.dat
+p5o6.dat closed.
+Writing data to p5o7.dat
+p5o7.dat closed.
+Writing data to p5o8.dat
+p5o8.dat closed.
+Writing data to p5o9.dat
+p5o9.dat closed.
+Writing data to p5o10.dat
+p5o10.dat closed.
+Writing data to p5o11.dat
+p5o11.dat closed.
+Writing data to p5o12.dat
+p5o12.dat closed.
+Writing data to p5o13.dat
+p5o13.dat closed.
+Writing data to p5o14.dat
+p5o14.dat closed.
+Writing data to p5o15.dat
+p5o15.dat closed.
+Writing data to p5o16.dat
+p5o16.dat closed.
+Writing data to p5o17.dat
+p5o17.dat closed.
+Writing data to p5o18.dat
+p5o18.dat closed.
+Writing data to p5o19.dat
+p5o19.dat closed.
+Writing data to p5o20.dat
+p5o20.dat closed.
+Domain index: 1, 1, 0
+Domain origin: 34, 78, 9
+Writing data to p6o0.dat
+p6o0.dat closed.
+Writing data to p6o1.dat
+p6o1.dat closed.
+Writing data to p6o2.dat
+p6o2.dat closed.
+Writing data to p6o3.dat
+p6o3.dat closed.
+Writing data to p6o4.dat
+p6o4.dat closed.
+Writing data to p6o5.dat
+p6o5.dat closed.
+Writing data to p6o6.dat
+p6o6.dat closed.
+Writing data to p6o7.dat
+p6o7.dat closed.
+Writing data to p6o8.dat
+p6o8.dat closed.
+Writing data to p6o9.dat
+p6o9.dat closed.
+Writing data to p6o10.dat
+p6o10.dat closed.
+Writing data to p6o11.dat
+p6o11.dat closed.
+Writing data to p6o12.dat
+p6o12.dat closed.
+Writing data to p6o13.dat
+p6o13.dat closed.
+Writing data to p6o14.dat
+p6o14.dat closed.
+Writing data to p6o15.dat
+p6o15.dat closed.
+Writing data to p6o16.dat
+p6o16.dat closed.
+Writing data to p6o17.dat
+p6o17.dat closed.
+Writing data to p6o18.dat
+p6o18.dat closed.
+Writing data to p6o19.dat
+p6o19.dat closed.
+Writing data to p6o20.dat
+p6o20.dat closed.
+Domain index: 1, 1, 1
+Domain origin: 34, 78, 19
+Writing data to p7o0.dat
+p7o0.dat closed.
+Writing data to p7o1.dat
+p7o1.dat closed.
+Writing data to p7o2.dat
+p7o2.dat closed.
+Writing data to p7o3.dat
+p7o3.dat closed.
+Writing data to p7o4.dat
+p7o4.dat closed.
+Writing data to p7o5.dat
+p7o5.dat closed.
+Writing data to p7o6.dat
+p7o6.dat closed.
+Writing data to p7o7.dat
+p7o7.dat closed.
+Writing data to p7o8.dat
+p7o8.dat closed.
+Writing data to p7o9.dat
+p7o9.dat closed.
+Writing data to p7o10.dat
+p7o10.dat closed.
+Writing data to p7o11.dat
+p7o11.dat closed.
+Writing data to p7o12.dat
+p7o12.dat closed.
+Writing data to p7o13.dat
+p7o13.dat closed.
+Writing data to p7o14.dat
+p7o14.dat closed.
+Writing data to p7o15.dat
+p7o15.dat closed.
+Writing data to p7o16.dat
+p7o16.dat closed.
+Writing data to p7o17.dat
+p7o17.dat closed.
+Writing data to p7o18.dat
+p7o18.dat closed.
+Writing data to p7o19.dat
+p7o19.dat closed.
+Writing data to p7o20.dat
+p7o20.dat closed.
+Domain index: 2, 0, 0
+Domain origin: 54, 73, 9
+Writing data to p8o0.dat
+p8o0.dat closed.
+Writing data to p8o1.dat
+p8o1.dat closed.
+Writing data to p8o2.dat
+p8o2.dat closed.
+Writing data to p8o3.dat
+p8o3.dat closed.
+Writing data to p8o4.dat
+p8o4.dat closed.
+Writing data to p8o5.dat
+p8o5.dat closed.
+Writing data to p8o6.dat
+p8o6.dat closed.
+Writing data to p8o7.dat
+p8o7.dat closed.
+Writing data to p8o8.dat
+p8o8.dat closed.
+Writing data to p8o9.dat
+p8o9.dat closed.
+Writing data to p8o10.dat
+p8o10.dat closed.
+Writing data to p8o11.dat
+p8o11.dat closed.
+Writing data to p8o12.dat
+p8o12.dat closed.
+Writing data to p8o13.dat
+p8o13.dat closed.
+Writing data to p8o14.dat
+p8o14.dat closed.
+Writing data to p8o15.dat
+p8o15.dat closed.
+Writing data to p8o16.dat
+p8o16.dat closed.
+Writing data to p8o17.dat
+p8o17.dat closed.
+Writing data to p8o18.dat
+p8o18.dat closed.
+Writing data to p8o19.dat
+p8o19.dat closed.
+Writing data to p8o20.dat
+p8o20.dat closed.
+Domain index: 2, 0, 1
+Domain origin: 54, 73, 19
+Writing data to p9o0.dat
+p9o0.dat closed.
+Writing data to p9o1.dat
+p9o1.dat closed.
+Writing data to p9o2.dat
+p9o2.dat closed.
+Writing data to p9o3.dat
+p9o3.dat closed.
+Writing data to p9o4.dat
+p9o4.dat closed.
+Writing data to p9o5.dat
+p9o5.dat closed.
+Writing data to p9o6.dat
+p9o6.dat closed.
+Writing data to p9o7.dat
+p9o7.dat closed.
+Writing data to p9o8.dat
+p9o8.dat closed.
+Writing data to p9o9.dat
+p9o9.dat closed.
+Writing data to p9o10.dat
+p9o10.dat closed.
+Writing data to p9o11.dat
+p9o11.dat closed.
+Writing data to p9o12.dat
+p9o12.dat closed.
+Writing data to p9o13.dat
+p9o13.dat closed.
+Writing data to p9o14.dat
+p9o14.dat closed.
+Writing data to p9o15.dat
+p9o15.dat closed.
+Writing data to p9o16.dat
+p9o16.dat closed.
+Writing data to p9o17.dat
+p9o17.dat closed.
+Writing data to p9o18.dat
+p9o18.dat closed.
+Writing data to p9o19.dat
+p9o19.dat closed.
+Writing data to p9o20.dat
+p9o20.dat closed.
+Domain index: 2, 1, 0
+Domain origin: 54, 78, 9
+Writing data to p10o0.dat
+p10o0.dat closed.
+Writing data to p10o1.dat
+p10o1.dat closed.
+Writing data to p10o2.dat
+p10o2.dat closed.
+Writing data to p10o3.dat
+p10o3.dat closed.
+Writing data to p10o4.dat
+p10o4.dat closed.
+Writing data to p10o5.dat
+p10o5.dat closed.
+Writing data to p10o6.dat
+p10o6.dat closed.
+Writing data to p10o7.dat
+p10o7.dat closed.
+Writing data to p10o8.dat
+p10o8.dat closed.
+Writing data to p10o9.dat
+p10o9.dat closed.
+Writing data to p10o10.dat
+p10o10.dat closed.
+Writing data to p10o11.dat
+p10o11.dat closed.
+Writing data to p10o12.dat
+p10o12.dat closed.
+Writing data to p10o13.dat
+p10o13.dat closed.
+Writing data to p10o14.dat
+p10o14.dat closed.
+Writing data to p10o15.dat
+p10o15.dat closed.
+Writing data to p10o16.dat
+p10o16.dat closed.
+Writing data to p10o17.dat
+p10o17.dat closed.
+Writing data to p10o18.dat
+p10o18.dat closed.
+Writing data to p10o19.dat
+p10o19.dat closed.
+Writing data to p10o20.dat
+p10o20.dat closed.
+Domain index: 2, 1, 1
+Domain origin: 54, 78, 19
+Writing data to p11o0.dat
+p11o0.dat closed.
+Writing data to p11o1.dat
+p11o1.dat closed.
+Writing data to p11o2.dat
+p11o2.dat closed.
+Writing data to p11o3.dat
+p11o3.dat closed.
+Writing data to p11o4.dat
+p11o4.dat closed.
+Writing data to p11o5.dat
+p11o5.dat closed.
+Writing data to p11o6.dat
+p11o6.dat closed.
+Writing data to p11o7.dat
+p11o7.dat closed.
+Writing data to p11o8.dat
+p11o8.dat closed.
+Writing data to p11o9.dat
+p11o9.dat closed.
+Writing data to p11o10.dat
+p11o10.dat closed.
+Writing data to p11o11.dat
+p11o11.dat closed.
+Writing data to p11o12.dat
+p11o12.dat closed.
+Writing data to p11o13.dat
+p11o13.dat closed.
+Writing data to p11o14.dat
+p11o14.dat closed.
+Writing data to p11o15.dat
+p11o15.dat closed.
+Writing data to p11o16.dat
+p11o16.dat closed.
+Writing data to p11o17.dat
+p11o17.dat closed.
+Writing data to p11o18.dat
+p11o18.dat closed.
+Writing data to p11o19.dat
+p11o19.dat closed.
+Writing data to p11o20.dat
+p11o20.dat closed.
+End time: 161678
+Wall clock time: 161674
+P4 procgroup file is PGfile.16030.
